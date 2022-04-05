@@ -2,8 +2,10 @@
 MERN
 
 **MySql DB**
+
 create mysql Table -> mern_db.products
-id, title, price, createdAt, updatedAt
+
+Column names - id, title, price, createdAt, updatedAt
 
 **backend - db connection and open server**
 cd backend
