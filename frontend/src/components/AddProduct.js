@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const AddProduct = () => {
     const [title, setTitle] = useState('');
     const [price, setPrice] = useState('');
-    const history = useNavigate();
+    const navigate = useNavigate();
     
     const saveProduct = async (e) => {
         e.preventDefault();
@@ -13,7 +13,8 @@ const AddProduct = () => {
             title: title,
             price: price
         });
-        history.push("/");
+        debugger;
+        navigate("/");
     }
     
     return (

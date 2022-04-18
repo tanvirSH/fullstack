@@ -15,7 +15,8 @@ const EditProduct = () => {
             title: title,
             price: price
         });
-        navigate.push("/");
+        debugger;
+        navigate("/");
     }
     
     useEffect(() => {
